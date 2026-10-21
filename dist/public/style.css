@@ -1,0 +1,31 @@
+/* SPDX-License-Identifier: MIT
+ * Copyright (c) 2026 buildnbrk
+ *
+ * extension-icons: a generic document shape whose coloured label carries the file extension.
+ *
+ * The SVG is sized in em, so it follows HFS' own icon sizing in list mode and tiles-mode alike.
+ * Nothing here reaches outside the icon itself, so this file can load alongside any other plugin.
+ */
+.ft-file-icon {
+    line-height: 1;
+}
+.ft-file-icon > svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ft-page {
+    fill: #fff;
+    stroke: rgba(0, 0, 0, .30);
+    stroke-width: 1;
+    stroke-linejoin: round;
+}
+.ft-fold {
+    stroke: rgba(0, 0, 0, .18);
+    stroke-width: .6;
+    stroke-linejoin: round;
+}
+.ft-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: -.02em;
+}
